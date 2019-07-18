@@ -19,6 +19,7 @@ public class SFDCautomation {
 		WebDriver driver;
 		driver=new ChromeDriver();	
         driver.get("https://login.salesforce.com");
+           System.out.println("Hello");
       
 	    WebElement username=driver.findElement(By.name("username"));
 	    username.sendKeys("pradeepa.prabhu1006-n8t7@force.com");
